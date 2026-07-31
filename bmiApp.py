@@ -4,12 +4,12 @@ st.markdown("# :red[แอปพลิเคชันคำนวณค่าด
 st.write("กรอกข้อมูลน้ำหนักส่วนสูงของคุณ เพื่อเช็กสุขภาพเบื้องต้น")
 
 weight = st.number_input("กรอกน้ำหนักของคุณ (kg):")
-height_cm = st.number_input("กรอกส่วนสูงของคุณ (m):")
+height_cm = st.number_input("กรอกส่วนสูงของคุณ (cm):")
 if st.button("คำนวณ BMI"):
  height_m = height_cm / 100
  bmi = weight / (height_m ** 2)
  
- st.header(f"ค่า BMI ของคุณคือ: **{bmi:.2f}**")
+st.header(f"ค่า BMI ของคุณคือ: **{bmi:.2f}**")
 if bmi < 18.5:
   st.warning("ผอม")
 elif 18.5 <= bmi < 23.0:
@@ -17,5 +17,5 @@ elif 18.5 <= bmi < 23.0:
 elif 23.0 <= bmi < 25.0:
   st.error("อ้วน")
 
-st.divider
+st.divider()
 st.write("นายชยธร ศุภการกิตติกุล เลขที่ 26 ม.4/6")
