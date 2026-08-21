@@ -85,11 +85,11 @@ ans2 = st.text_input(
     "ข้อ 2: Cats love to eat `f _ s h`. 🐟",
     value=st.session_state.ans2_val,
 )
-ans1 = st.text_input(
+ans3 = st.text_input(
     "ข้อ 3: Under the 'w _ _ _ her'. 🍎",
     value=st.session_state.ans3_val,
 )
-ans1 = st.text_input(
+ans4 = st.text_input(
     "ข้อ 4: Long 't _ _ e' no see. 🍎",
     value=st.session_state.ans4_val,
 )
