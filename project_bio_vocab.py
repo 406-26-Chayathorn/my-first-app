@@ -48,7 +48,7 @@ if "start" in st.session_state and not st.session_state.get("is_ended", False):
 
     if time_left > 0:
         mins, secs = divmod(time_left, 60)
-        st.error(f"⏳ เหลือเวลา: {mins:02d}:{secs:02d} วินาที")
+        st.error(f"⏳ เหลือเวลา: {mins:02d}:{secs:02d} นาที")
     else:
         st.session_state.is_ended = True
         st.rerun()
