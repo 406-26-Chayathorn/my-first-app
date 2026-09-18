@@ -72,7 +72,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
 
     if u_ans2 == "ไทมีน":
         st.success("✅ ข้อ 2: ถูกต้อง")
-    elif u_ans1 == "Thymine":
+    elif u_ans2 == "Thymine":
         st.success("✅ ข้อ 2: ถูกต้อง")
         score += 1
     else:
@@ -80,7 +80,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
  
     if u_ans3 == "ยูราซิล":
         st.success("✅ ข้อ 3: ถูกต้อง")
-    elif u_ans1 == "Uracil":
+    elif u_ans3 == "Uracil":
         st.success("✅ ข้อ 3: ถูกต้อง")
         score += 1
     else:
@@ -88,7 +88,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
 
     if u_ans4 == "เอนไซม์":
         st.success("✅ ข้อ 4: ถูกต้อง")
-    elif u_ans1 == "Enzyme":
+    elif u_ans4 == "Enzyme":
         st.success("✅ ข้อ 4: ถูกต้อง")
         score += 1
     else:
@@ -96,7 +96,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
   
     if u_ans5 == "กลูโคส":
         st.success("✅ ข้อ 5: ถูกต้อง")
-    elif u_ans1 == "Glucose":
+    elif u_ans5 == "Glucose":
         st.success("✅ ข้อ 5: ถูกต้อง")
         score += 1
     else:
@@ -105,7 +105,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
 
     if u_ans6 == "ไคติน":
         st.success("✅ ข้อ 6: ถูกต้อง")
-    elif u_ans1 == "Chitin":
+    elif u_ans6 == "Chitin":
         st.success("✅ ข้อ 6: ถูกต้อง")
         score += 1
     else:
@@ -113,7 +113,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
 
     if u_ans7 == "ดีออกซีไรโบส":
         st.success("✅ ข้อ 7: ถูกต้อง")
-    elif u_ans1 == "Deoxyribose":
+    elif u_ans7 == "Deoxyribose":
         st.success("✅ ข้อ 7: ถูกต้อง")
         score += 1
     else:
@@ -121,7 +121,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
         
     if u_ans8 == "พันธะไกลโคซิดิก":
         st.success("✅ ข้อ 8: ถูกต้อง")
-    elif u_ans1 == "Glycosidic bond":
+    elif u_ans8 == "Glycosidic bond":
         st.success("✅ ข้อ 8: ถูกต้อง")
         score += 1
     else:
@@ -129,9 +129,9 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
 
     if u_ans9 == "พันธะไฮโดรเจน":
         st.success("✅ ข้อ 9: ถูกต้อง")
-    elif u_ans1 == "hydrogen bond":
+    elif u_ans9 == "hydrogen bond":
         st.success("✅ ข้อ 9: ถูกต้อง")
-    elif u_ans1 == "H bond":
+    elif u_ans9 == "H bond":
         st.success("✅ ข้อ 9: ถูกต้อง")
         score += 1
     else:
@@ -139,7 +139,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
 
     if u_ans10 == "พันธะเอสเทอร์":
         st.success("✅ ข้อ 10: ถูกต้อง")
-    elif u_ans1 == "Ester bond":
+    elif u_ans10 == "Ester bond":
         st.success("✅ ข้อ 10: ถูกต้อง")
         score += 1
     else:
