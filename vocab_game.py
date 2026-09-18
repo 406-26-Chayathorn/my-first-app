@@ -104,6 +104,24 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
         score += 1
     else:
         st.error(f"❌ ข้อ 7: ยังไม่ถูกต้อง (คุณตอบ '{u_ans7}')")
+        
+    if u_ans8 == "พันธะไกลโคซิดิก":
+        st.success("✅ ข้อ 7: ถูกต้อง")
+        score += 1
+    else:
+        st.error(f"❌ ข้อ 7: ยังไม่ถูกต้อง (คุณตอบ '{u_ans8}')")
+
+    if u_ans9 == "พันธะไฮโดรเจน":
+        st.success("✅ ข้อ 7: ถูกต้อง")
+        score += 1
+    else:
+        st.error(f"❌ ข้อ 7: ยังไม่ถูกต้อง (คุณตอบ '{u_ans9}')")
+
+    if u_ans10 == "พันธะเอสเทอร์":
+        st.success("✅ ข้อ 7: ถูกต้อง")
+        score += 1
+    else:
+        st.error(f"❌ ข้อ 7: ยังไม่ถูกต้อง (คุณตอบ '{u_ans10}')")
 
     st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
 
@@ -163,9 +181,21 @@ ans6 = st.text_input(
     value=st.session_state.ans6_val,
 )
 ans7 = st.text_input(
-    "ข้อ 7:น้ำตาลคาร์บอน 5 ตัวที่เป็นส่วนประกอบของ",
+    "ข้อ 7:น้ำตาลคาร์บอน 5 ตัวที่เป็นส่วนประกอบของ DNA โดยมีออกซิเจนน้อยกว่า",
     value=st.session_state.ans7_val,
-    
+)
+ans8 = st.text_input(
+    "ข้อ 8:พันธะเคมีที่เชื่อมระหว่างโมเลกุลของน้ำตาไรโบส 1 อะตอม",
+    value=st.session_state.ans8_val,
+)
+ans9 = st.text_input(
+    "ข้อ 9:พันธะแรงยึดเหนี่ยวอย่างอ่อนที่ช่วยยึดเกลียวคู่ของ DNA และโครงสร้างโปรตีน",
+    value=st.session_state.ans9_val,
+)
+ans10 = st.text_input(
+    "ข้อ 10:น้พันธะเคมีที่เชื่อมระหว่างกลีเซอรอลกับกรดไขมันในลิพิด",
+    value=st.session_state.ans10_val,
+)
 # อัปเดตค่าล่าสุดเข้าตัวแปร
 st.session_state.ans1_val = ans1
 st.session_state.ans2_val = ans2
