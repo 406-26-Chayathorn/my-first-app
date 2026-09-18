@@ -105,7 +105,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
 
     if u_ans6 == "ไคติน":
         st.success("✅ ข้อ 6: ถูกต้อง")
-         elif u_ans1 == "Chitin":
+    elif u_ans1 == "Chitin":
         st.success("✅ ข้อ 6: ถูกต้อง")
         score += 1
     else:
